@@ -1,0 +1,19 @@
+@use "../../styles/util/" as *;
+
+.header {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  align-items: center;
+  padding: rem(30) rem(15);
+  h1 {
+    font-size: rem(16);
+    margin: 0;
+  }
+  .modeToggleContainer {
+    justify-self: end;
+    p {
+      font-size: rem(12);
+      margin: 0;
+    }
+  }
+}

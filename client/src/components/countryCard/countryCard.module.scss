@@ -1,0 +1,27 @@
+@use "../../styles/util/" as *;
+
+.card {
+  background-color: $light-elements;
+  border-radius: $br;
+  margin: 0 auto;
+  width: rem(260);
+  img {
+    border-radius: $br $br 0 0;
+    width: 100%;
+  }
+  .detailsContainer {
+    padding: rem(10) rem(30) rem(40);
+    h2 {
+      font-size: rem(18);
+      margin: rem(15) 0;
+    }
+    p {
+      font-size: rem(14);
+      font-weight: 500;
+      margin: rem(5) 0;
+      span {
+        font-weight: 300;
+      }
+    }
+  }
+}

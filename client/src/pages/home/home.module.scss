@@ -1,0 +1,13 @@
+@use "../../styles/util/" as *;
+
+.homePage {
+  background-color: $light-background;
+  padding: rem(30) rem(20);
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: rem(30);
+    margin: rem(30) auto;
+    width: 100%;
+  }
+}

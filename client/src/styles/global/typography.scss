@@ -1,0 +1,15 @@
+@use "../util/" as *;
+
+h1,
+h2,
+h3,
+p,
+input,
+input::placeholder,
+a {
+  font-family: $font-nunito-sans;
+}
+
+// - Homepage Items: 14px
+// - Detail Page: 16px
+// - Weights: 300, 600, 800
